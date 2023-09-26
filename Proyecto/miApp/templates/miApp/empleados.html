@@ -1,0 +1,31 @@
+{% extends "miApp/padre.html" %}
+
+{% load static %}
+
+
+{% block empleado %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleados</title>
+</head>
+<body>
+    <form action="miApp/inicio/" method="POST"> {% csrf_token %}
+        
+        <p>Apellido: <input type="text" name="apellido"></p>
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>DNI: <input type="number" name="dni"></p>
+        
+        <input type="submit" value="Enviar">
+        
+    </form>
+</body>
+</html>
+
+
+{% endblock %}
+
+                        
