@@ -9,4 +9,4 @@ En el incio de la web hay 3 botones:
 - Empleados
 - Medicación
 
-Cada secciòn tiene su formulario para completar
+Cada sección tiene su formulario para completar
